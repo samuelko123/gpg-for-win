@@ -6,9 +6,9 @@ A minimalistic Node.js interop with GPG for unattended key generation.
 
 The `GnuPG` folder consists of files directly copied from [Gpg4win](https://www.gpg4win.org/) installation.
 
-In your local git repository, run the follow commands to enable git commit signing.
-`git config --local gpg.program "<file path of gpg.exe>"`
-`git config --local user.signingkey <private sub key fingerprint>`
+In your local git repository, run the follow commands to enable git commit signing.<br>
+`git config --local gpg.program "<file path of gpg.exe>"`<br>
+`git config --local user.signingkey <private sub key fingerprint>`<br>
 `git config --local commit.gpgsign true`
 
 #### Basic Understanding of GPG
